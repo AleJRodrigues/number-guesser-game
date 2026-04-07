@@ -32,7 +32,7 @@ A simple terminal-based game developed in Java where the player needs to guess a
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-    Jogo de Adivinhação de Números 🎮
+Jogo de Adivinhação de Números 🎮
 
 Um jogo simples para terminal desenvolvido em Java, onde o jogador deve adivinhar um número secreto entre 1 e 100. Este projeto foi criado para praticar lógica de programação, estruturas de repetição e condicionais.
 🚀 Funcionalidades
