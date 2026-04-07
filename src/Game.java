@@ -2,8 +2,8 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Game {
-    Scanner input = new Scanner(System.in);
-    Random rand = new Random();
+    private Scanner input = new Scanner(System.in);
+    private Random rand = new Random();
 
     public int generateRandomNumber(){
        return rand.nextInt(1,101);
@@ -56,6 +56,10 @@ public class Game {
             case 3 -> {
                 System.out.println("Great! You have selected the Hard difficulty level.");
                 chances = 3;
+            }
+            default -> {
+                System.out.println("Invalid choice, defaulting  to Easy. ");
+                chances = 10;
             }
         }
 
